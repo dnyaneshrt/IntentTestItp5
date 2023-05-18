@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+ <EditText
+     android:id="@+id/et_mobileNumber"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="enter mobile number:"
+     android:padding="16dp"
+     android:layout_margin="5dp"
+     android:textStyle="bold"
+     android:textColor="@color/black"
+     />
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dial"
+        android:padding="16dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+           android:id="@+id/btn_linkedin"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="linkedin"
+            android:padding="16dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_facebook"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="facebook"
+            android:padding="16dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name:"
+        android:padding="16dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_nxt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="next page"
+        android:padding="16dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
